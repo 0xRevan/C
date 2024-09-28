@@ -7,9 +7,10 @@ int main(void)
         printf("Do you agree with our teachings? y/n: \n");
         scanf(" %c", &x);
             
-            if (x == 'y' ) {
+            if (x == 'y' || x == 'Y' ) {
                 printf ("You are welcomed into the Revanites. \n");
             }
+            // i only (really) want a Y/y answer here
             else 
             {
                 printf ("Please, leave accordingly. \n");
