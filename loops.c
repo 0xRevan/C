@@ -3,12 +3,12 @@
 int main(void) 
 {
 
-int x = 3;
-while (x > 0)
-    {
-        printf("bark \n");
-        x = x -1;
+    int x = 5;
+    while (x > 0)
+        {
+            printf("bark \n");
+            x --;
 
-            return 0;
-    }
+                // return 0;
+        }
 }
