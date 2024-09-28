@@ -1,12 +1,14 @@
 #include <stdio.h>
 
-void bark(void)
+void bark(int z)
 {
-    printf("bark \n");
+    for (int x = 0; x < z; x++)
+    {
+        printf("bark \n");
+    }
 }
 
 int main(void) 
 {
-    for (int x = 0; x < 5; x++)
-        bark();
+        bark(5);
 }
