@@ -1,19 +1,39 @@
 #include <stdio.h>
+#include <cs50.h>
 
-// print x out 
+// In a file called mario.c in a folder called mario-less, implement a program in C that recreates that pyramid, using hashes (#) for bricks, as in the below:
+//        #
+//       ##
+//      ###
+//     ####
+//    #####
+//   ######
+//  #######
+// ########
+// But prompt the user for an int for the pyramid’s actual height, so that the program can also output shorter pyramids like the below:
+//   #
+//  ##
+// ###
+
 
 int main(void) 
 {
-// gets user input
-    
-    int i;
-    printf("My great Imhotep, what height do you want the pyramid to be?");
-    scanf("%i", &i);
-    printf("Output: %i\n", i);
+// declaring variables
+// rememeber to end by ;
+int x;
+int y;
+ 
+// get user input
+x = get_int("Imhotep, guide the pyramid building. What size should it be? /n");
+y = get_int("Imhotep, guide the pyramid building. What height should it be? /n");
 
-// use user input to print the ### pyramids
+
+// get user input to print the # pyramids
 
 
 
 }
+
+
+
 
